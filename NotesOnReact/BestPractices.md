@@ -4,33 +4,33 @@ Font: [YoutubeVideo](https://www.youtube.com/watch?v=5r25Y9Vg2P4)
 
 ## Hardcoded Consts and "Magic Numbers"
 
-1. Define constans/magic numbers/hardcoded values into its own file, or at least, outside the component. Prefer the separated file for this.
+- Define constans/magic numbers/hardcoded values into its own file, or at least, outside the component. Prefer the separated file for this.
 
 ## Folder Structure
 
-2. Folder Structure: it should be consistent, there are many ways to organize a project, but you should be consistent on your methods. Also, keep in mind that it should be clear enough for new team members to understand the process.
-3. Have a lib folder for utils, types, and similar functions.
-4. Have context/stores/zustand/redux... folder for your state management tool.
-5. Every folder is separated by semantic meaning, and its quite obvious, keep it that way.
+- Folder Structure: it should be consistent, there are many ways to organize a project, but you should be consistent on your methods. Also, keep in mind that it should be clear enough for new team members to understand the process.
+- Have a lib folder for utils, types, and similar functions.
+- Have context/stores/zustand/redux... folder for your state management tool.
+- Every folder is separated by semantic meaning, and its quite obvious, keep it that way.
 
 ## Components and when to create them.
 
-7. In react, everything is about components. Components are independent pices of the UI.
-8. Keep the components reusable, or do not separated them if they are too small.
-9. Look for opportunities to reuse components (like buttons, or forms).
-10. Components maybe not reusable, but sometimes they are needed for organizations purposes, like sidebars, navbars, headers.
-11. Create components that help you organize markup.
-12. Use the children prop intelligently.
-13. Make components for elementes that are radically diferent.
+- In react, everything is about components. Components are independent pices of the UI.
+- Keep the components reusable, or do not separated them if they are too small.
+- Look for opportunities to reuse components (like buttons, or forms).
+- Components maybe not reusable, but sometimes they are needed for organizations purposes, like sidebars, navbars, headers.
+- Create components that help you organize markup.
+- Use the children prop intelligently.
+- Make components for elementes that are radically diferent.
 
 ## Avoid innecesary markups
 
-13. Avoid unnecesary divs.
-14. Use react fragments instead of unnecesary divs. Thats the best practice.
+- Avoid unnecesary divs.
+- Use react fragments instead of unnecesary divs. Thats the best practice.
 
 ## Dont add layout styles to reusable components (grid, flex, margin, etc...)
 
-15. Add the layout style to another component that is not reusable or maybe, use a div (nice exeption).
+- Add the layout style to another component that is not reusable or maybe, use a div (nice exeption).
 
 - Note, react fragments do not accept styles or classes.
 
